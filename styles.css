@@ -45,7 +45,7 @@
 }
 
 body {
-    background: #f7fff7;
+    background: #ffe66d;
 }
 
 /* End of Global Styles */
@@ -62,7 +62,7 @@ header {
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
-    border-bottom: 2px solid var(--primary-color);
+    /* border-bottom: 2px solid var(--primary-color); */
 }
 
 header > h1 {
@@ -140,14 +140,55 @@ main {
     max-width: 80%;
     margin: 0 auto;
     margin-top: 5%;
+    display: flex;
+    gap: 20px;
 }
 
 /* intro section */
+.intro {
+    flex: 100%;
+    align-self: center;
+}
+
+.intro > h1 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: darkslategray;
+}
+
+.intro > p:nth-child(3) {
+    font-family: var(--regular-font);
+    font-size: larger;
+    color: var(--primary-color);
+}
+
+section.intro > p:nth-child(6) > span {
+    font-family: var(--heading-font);
+    font-size: larger;
+    font-weight: 600;
+    margin-right: 2%;
+    position: relative;
+    color: var(--primary-color);
+}
+
+section.intro > p:nth-child(6) > span:nth-child(2) > a {
+    text-decoration: none;
+    color: var(--mint-cream);
+    background-color: var(--primary-color);
+    padding: .5rem .8rem;
+    border-radius: 9999px;
+}
 
 /* end of intro section */
 
 /* logo section */
+.logo {
+    flex: 100%;
+}
 
+.logo > img {
+    width: 80%;
+}
 /* end of logo section */
 
 /* End of Index Main Styles */
