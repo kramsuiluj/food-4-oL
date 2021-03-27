@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /* font-family: 'Lato', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
 /* End of Imports */
 
 
@@ -19,10 +22,12 @@
     /* fonts */
     --logo-font: 'Bungee Shade', cursive;
     --heading-font: 'Lato', sans-serif;
+    --regular-font: 'Open Sans', sans-serif;
 
     /* colors */
     --primary-color: #1a535c;
     --secondary-color: #4ECDC4;
+    --mint-cream: #f7fff7;
 
 }
 
@@ -81,7 +86,7 @@ header div > a {
 }
 
 header div > a:nth-child(1) {
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 header div > a:nth-child(2) {
@@ -89,3 +94,37 @@ header div > a:nth-child(2) {
 }
 
 /* End of Header Styles */
+
+
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    background-color: var(--secondary-color);
+    margin-top: 5%;
+}
+
+footer > p {
+    font-family: var(--regular-font);
+    font-size: .9rem;
+    color: darkslategray;
+    padding-top: 1%;
+}
+
+footer > p:nth-child(2) {
+    padding-bottom: 1%;
+}
+
+footer p > span {
+    border-bottom: 1px solid darkslategray;
+}
+
+footer p span > a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+/* End of Footer Styles */
