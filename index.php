@@ -5,7 +5,7 @@
     <section class="intro">
         <h1>Join us on our mission!</h1>
         <br>
-        <p>Food-4-oL (Zero-Hunger Movement) website encourages us to help others amid the turmoil we are experiencing, executing avenue so that it is easier for us to contribute with just a click.</p>
+        <p><span>Food-4-oL (<span>Zero-Hunger Movement</span> )</span> website encourages us to help others amid the turmoil we are experiencing, executing avenue so that it is easier for us to contribute with just a click.</p>
         <br>
         <br>
         <p>
